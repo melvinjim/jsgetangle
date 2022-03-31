@@ -1,0 +1,95 @@
+*{
+    font-family: Helvetica !important;
+}
+
+h5{
+    color: #787878;
+}
+
+p{
+    color: #787878;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+    width: auto;
+    height: auto;
+    padding: 100px;
+}
+
+.container{
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    padding: 60px;
+}
+
+.title-and-change-layout{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+hr{
+    margin-top: 10px !important;
+}
+
+.button-Change-Layout{
+    color: #46b02c !important;
+}
+
+.change-layout{
+    border: solid 1px #46b02c;
+}
+
+.hour-minutes{
+    display: flex;
+    
+}
+
+.hours{
+    margin-right: 25px;
+}
+
+.title-hours-and-minutes{
+    margin-bottom: 5px;
+}
+
+.send{
+    background-color: #46b02c;
+    width: 100%;
+    margin: 18px 0px 0px 0px !important;
+    padding: 6px;
+}
+
+.button-send{
+    color: #fff;
+}
+
+.text-mt-hr{
+    width: 227px;
+}
+
+.answer{
+    margin-top: 30px;
+    background-color: #FCF9D7;
+    width: 100%;
+    height: 180px;
+    text-align: -webkit-center;
+    padding-top: 35px;
+}
+
+.answer-grades{
+    background-color: #fff;
+    width: 28%;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
