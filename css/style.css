@@ -61,11 +61,7 @@ hr{
 
 .hour-minutes{
     display: flex;
-    
-}
-
-.hours{
-    margin-right: 25px;
+    justify-content: space-between;
 }
 
 .title-hours-and-minutes{
@@ -80,9 +76,9 @@ hr{
     padding: 6px;
 }
 
-.text-mt-hr{
+/* .text-mt-hr{
     width: 227px;
-}
+} */
 
 .answer{
     margin-top: 30px;
@@ -105,12 +101,18 @@ hr{
     padding-left: 10px;
 }
 
-#changes-h{
-    display: none;
+#hours{
+    display: flex;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+#minutes{
+    display: flex;
     width: 100%;
 }
 
-#change-m{
-    display: none;
-    width: 100%;
+#h-m-block{
+    display: flex;
+    justify-content: space-between;
 }
