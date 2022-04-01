@@ -13,7 +13,7 @@
         <div class="container">
             <div class="title-and-change-layout">
                 <h5>Get angle º value with specific time.</h5>
-                <button type="sum" class="change-layout btn btn-sm m-1 button"><a class="button-Change-Layout" href="#">Change Layout</a></button>
+                <button type="sum" onclick="changes()" class="change-layout btn btn-sm m-1 button">Change Layout</button>
             </div>
             <hr>
             <div id="incorrect">
@@ -29,13 +29,13 @@
                     <input id="minutes" class="text-mt-hr form-control" type="text" placeholder="Minutes">
                 </div>
             </div>
-            <button type="submit" class="send btn btn-sm m-1 button" onclick="data()" ><a class="button-send" href="#">Send Information</a></button>
+            <button type="submit" class="send btn btn-sm m-1 button" onclick="data()" >Send Information</button>
             <div class="answer">
                 <div id="title-h-m">
-                    <p>Add hours and minutes to get and angle</p>
+                    <p id="text-h-m">Add hours and minutes to get and angle</p>
                 </div>
                 <div class="answer-grades">
-                    <p>0º</p>
+                    <p id="grados">0º</p>
                 </div>
             </div>
         </div>

@@ -54,12 +54,9 @@ hr{
     margin-top: 10px !important;
 }
 
-.button-Change-Layout{
-    color: #46b02c !important;
-}
-
 .change-layout{
     border: solid 1px #46b02c;
+    color: #46b02c !important;
 }
 
 .hour-minutes{
@@ -77,13 +74,10 @@ hr{
 
 .send{
     background-color: #46b02c;
+    color: #fff;
     width: 100%;
     margin: 18px 0px 0px 0px !important;
     padding: 6px;
-}
-
-.button-send{
-    color: #fff;
 }
 
 .text-mt-hr{
@@ -109,4 +103,14 @@ hr{
     font-size: 39px;
     padding-top: 13px;
     padding-left: 10px;
+}
+
+#changes-h{
+    display: none;
+    width: 100%;
+}
+
+#change-m{
+    display: none;
+    width: 100%;
 }
