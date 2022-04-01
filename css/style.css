@@ -10,14 +10,31 @@ p{
     color: #787878;
 }
 
-.container-fluid{
+body{
+    background-color: #E6E6E6;
+    padding: 100px 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#incorrect{
+    display: none;
     align-items: center;
     justify-content: center;
-    background-color: #E6E6E6;
-    width: auto;
-    height: auto;
-    padding: 100px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #c65353;
+    margin-bottom: 10px;
+}
+
+.incorrect{
+    color: #c65353;
+    margin-top: 0% !important;
+    margin-bottom: 2px;
 }
 
 .container{
