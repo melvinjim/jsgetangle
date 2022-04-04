@@ -28,6 +28,6 @@ var data = function(){
     }
 }
 
-var change = function(){
-
+var changes = function(){
+    document.getElementById('h-m-block').style.display = 'block';
 }
