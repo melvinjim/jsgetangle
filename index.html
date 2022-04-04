@@ -1,45 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>GET ANGLE</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <div class="container">
-            <div class="title-and-change-layout">
-                <h5>Get angle º value with specific time.</h5>
-                <button type="sum" onclick="changes()"  class="change-layout btn btn-sm m-1 button">Change Layout</button>
-            </div>
-            <hr>
-            <div id="incorrect">
-                <p class="incorrect">Bad Request</p>
-            </div>
-            <div id="h-m-block" class="hour-minutes">
-                <div class="hours">
-                    <p class="title-hours-and-minutes">Hours</p>
-                    <input id="hours" class="text-mt-hr form-control" type="text" placeholder="Hours">
+<html lang="en" class="total-center">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon"  type="image/png" href="img/reloj.png">
+        <title>GET_ANGLE</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="title-and-change-layout">
+                    <h5>Get angle º value with specific time.</h5>
+                    <button type="sum" onclick="changes()"  class="change-layout btn btn-sm m-1 button">Change Layout</button>
                 </div>
-                <div>
-                    <p class="title-hours-and-minutes">Minutes</p>
-                    <input id="minutes" class="text-mt-hr form-control" type="text" placeholder="Minutes">
+                <hr>
+                <div id="incorrect">
+                    <p class="incorrect">Bad Request</p>
                 </div>
-            </div>
-            <button type="submit" class="send btn btn-sm m-1 button" onclick="data()" >Send Information</button>
-            <div class="answer">
-                <div id="title-h-m">
-                    <p id="text-h-m">Add hours and minutes to get and angle</p>
+                <div id="h-m-block" class="hour-minutes">
+                    <div class="hours">
+                        <p class="title-hours-and-minutes">Hours</p>
+                        <input id="hours" class="text-mt-hr form-control" type="text" placeholder="Hours">
+                    </div>
+                    <div>
+                        <p class="title-hours-and-minutes">Minutes</p>
+                        <input id="minutes" class="text-mt-hr form-control" type="text" placeholder="Minutes">
+                    </div>
                 </div>
-                <div class="answer-grades">
-                    <p id="grados">0º</p>
+                <button type="submit" class="send btn btn-sm m-1 button" onclick="data()" >Send Information</button>
+                <div class="answer">
+                    <div id="title-h-m">
+                        <p id="text-h-m">Add hours and minutes to get and angle</p>
+                    </div>
+                    <div class="answer-grades">
+                        <p id="grados">0º</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
 <script src="js/text_m_h.js" ></script>
