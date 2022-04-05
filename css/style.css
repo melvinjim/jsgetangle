@@ -40,9 +40,10 @@ body{
 
 .container{
     background-color: #fff;
-    width: 600px;
+    width: 640px;
     height: auto;
-    padding: 60px;
+    padding: 40px;
+    box-shadow: 2px 5px 6px 4px #00000007;
 }
 
 .title-and-change-layout{
@@ -58,6 +59,9 @@ hr{
 .change-layout{
     border: solid 1px #46b02c;
     color: #46b02c !important;
+    height: 27px;
+    display: flex;
+    align-items: center;
 }
 
 .hour-minutes{
@@ -71,10 +75,11 @@ hr{
 
 .send{
     background-color: #46b02c;
-    color: #fff;
+    color: #fff !important;
     width: 100%;
     margin: 18px 0px 0px 0px !important;
     padding: 6px;
+    font-size: 16px;
 }
 
 .answer{
@@ -98,18 +103,26 @@ hr{
     padding-left: 10px;
 }
 
-#hours{
-    display: flex;
-    width: 100%;
-    margin-bottom: 14px;
-}
-
-#minutes{
-    display: flex;
-    width: 100%;
-}
-
 #h-m-block{
     display: flex;
     justify-content: space-between;
+}
+
+.hours{
+    width: 49%;
+    padding: 5px;
+}
+
+.minutes{
+    width: 49%;
+    padding: 5px;
+}
+
+.span-green{
+    color:#46b02c;
+}
+
+#text-h-m{
+    font-size: 21px;
+    color: #787878;
 }
