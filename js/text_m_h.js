@@ -35,7 +35,11 @@ var changes = function(){
 
     if(style.display == "flex"){
         box.style.cssText = 'display: block;';
+        document.getElementById('hour').style.width = "100%";
+        document.getElementById('minute').style.width= "100%";
     } else {
         box.style.cssText = 'display: flex;';
+        document.getElementById('hour').style.width = "49%";
+        document.getElementById('minute').style.width= "49%";
     }
 }
