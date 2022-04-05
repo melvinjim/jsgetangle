@@ -98,18 +98,21 @@ hr{
     padding-left: 10px;
 }
 
-#hours{
-    display: flex;
-    width: 100%;
-    margin-bottom: 14px;
-}
-
-#minutes{
-    display: flex;
-    width: 99%;
-}
-
 #h-m-block{
     display: flex;
     justify-content: space-between;
+}
+
+.hours{
+    width: 50%;
+    padding: 5px;
+}
+
+.minutes{
+    width: 50%;
+    padding: 5px;
+}
+
+.span-green{
+    color:#46b02c;
 }

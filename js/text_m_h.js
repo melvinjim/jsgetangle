@@ -4,7 +4,7 @@ var data = function(){
     var operation = ( hours <= 12 && hours >= 1 && minutes <= 59 && minutes >= 0 );
 
     if (operation) {
-        document.getElementById("text-h-m").innerHTML = "At " + hours + " Hours " + "with " + minutes + " Minutes" + " there's an angle of:";
+        document.getElementById("text-h-m").innerHTML = 'At <span class="span-green">' + hours + " Hours</span> " + 'with <span class="span-green"> ' + minutes + " Minutes</span> " + " there's an angle of:";
         hours = parseInt(hours);
         minutes = parseInt(minutes);
 
